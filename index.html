@@ -4057,7 +4057,7 @@ async function init() {
   if (message) loaderText.textContent = message;
 
   // Control loader speed here
-  await new Promise(resolve => setTimeout(resolve, 100));//need to change 
+  await new Promise(resolve => setTimeout(resolve, 1000));//need to change 
   await nextPaint();
 };
 
